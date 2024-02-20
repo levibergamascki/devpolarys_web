@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta name="description" content="Site da empresa de tecnologia DevPolarys, apresentando nosso trabalho, 
+    nossa missão, nossa visão, nossos valores, nossos rostos e nossa localização. Energizando seus sonhos em realidade">
+    <title>DevPolarys | Boosting your dreams into reality</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="glide.theme.min.css">
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <div class="language">
+        <a href="index.html"><img src="./img/brasil.png"></a>
+    </div>
+    <section id="home">
+    <nav id="mainmenu">
+        <ul id="polarys">
+        <li>
+            <a href="#home"><img src="img/logopolarys.svg" alt="POLARYS"></a>
+        </li></ul>
+        <input id="menu-hamburguer" type="checkbox"/>
+        
+        <label for="menu-hamburguer">
+          <div class="menu">
+            <span class="hamburguer"></span>
+          </div>
+        </label>
+        <ul id="pages">
+            <li>
+                <a href="#home" onclick="unchecked()">HOME</a>
+            </li>
+            <li>
+                <a href="#about" onclick="unchecked()">ABOUT</a>
+            </li>
+            <li>
+                <a href="#services" onclick="unchecked()">SERVICES</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="unchecked()">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+     function ocultarOuMostrar() {
+    var element = document.getElementById("pages");
+    var checkbox = document.getElementById("menu-hamburguer");
+    if (checkbox.checked) {
+        element.classList.add("hide");
+        document.body.style.overflow="hidden";
+    } else {
+        element.classList.add("hide");
+        document.body.style.overflow="auto";
+    }
+     
+    
+}
+function unchecked() {
+  const checkbox = document.getElementById('menu-hamburguer');
+  if (checkbox.checked) {
+    checkbox.checked = false;
+  }
+}
+    </script>
+    <div class="maincontent">
+        <div id="maintext">
+            <h1>BOOSTING YOUR DREAMS
+                <br> <p>INTO REALITY</p></h1>
+        </div>
+
+        <div id="subtext">
+            <h2>Find out more about who we are,<br> our projects and how to contact us</h2>
+        </div>
+
+        <div id="btn-exp">
+        <a href="#about"><h3>EXPLORE</h3></a>
+        </div>
+    </div>
+    <waves-effect waves-light>
+</section>
+
+<section id="about">
+<div id="mainabout">
+    <div id="about-art">
+        <img src="./img/lavalamp.svg" width="460px" height="370px" alt="Lâmpada de lava">
+    </div>
+
+    <div id="about-father">
+
+        <div id="about-title">
+            <h1>ABOUT</h1>
+        </div>
+
+        <div class="about-text">
+            <p>Founded in January 2023, we at DevPolarys are a group of developers from the most diverse areas of full-stack programming.
+                Our team always strives and dedicates itself completely to providing the best possible service to what was requested by the customer.
+            </p>
+            </div>
+
+             <div class="about-btn">
+                 <a href="#home">
+                    <button class="btn-more" type="submit">READ MORE</button>
+                </a>
+            </div>
+            </div>
+    </div>
+
+</section>
+
+<section id="services">
+    <div class="main-services">
+        <div id="services-text">
+            <h1>DISCOVER THE FUTURE OF<h1 class="fill">SOFTWARE TECH HERE</h1></h1>
+      
+        </div>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                <div class="box">
+                    <div class="img-area">
+                        <img src="./img/logojava.svg" alt="java">
+                    </div>
+                        <div class="text-area">
+                    <h2>JAVA</h2>
+                    <h3>Desenvolvimento de aplicações para Android</h3>
+                </div>
+                
+            </li>
+                <li class="glide__slide">
+                    <div class="box">
+                        <div class="img-area">
+                            <img src="./img/Group 7.svg" alt="C Sharp">
+                        </div>
+                            <div class="text-area">
+                        <h2>C#</h2>
+                        <h3>Desenolvimento do back-end</h3>
+                    </div>
+                        
+                    
+                    
+                </li>
+                <li class="glide__slide">
+                    <div class="box">
+                        <div class="img-area">
+                            <img src="./img/node.svg" alt="Java">
+                        </div>
+                        <div class="text-area">
+                        <h2>REACT</h2>
+                        <h3>Desenvolvimento de páginas web</h3>
+                    </div>
+                        
+                      
+                </li>
+                <li class="glide__slide">
+                    <div class="box">
+                        <div class="img-area">
+                            <img src="./img/Asp.svg" alt="C Sharp">
+                        </div>
+                        <div class="text-area">
+                        <h2>ASP.NET</h2>
+                        <h3>Desenvolvimento web com .NET Framework</h3>
+                    </div>
+                       
+                </li>
+                <li class="glide__slide">
+                    <div class="box">
+                        <div class="img-area">
+                            <img src="./img/JS.svg" alt="Lucas Rabaquim">
+                        </div>
+                        <div class="text-area">
+                        <h2>JAVASCRIPT</h2>
+                        <h3>Desenvolvimento Full-Stack</h3>
+                    </div>
+                     
+                </li>        <li class="glide__slide">
+                    <div class="box">
+                        <div class="img-area">
+                            <img src="./img/Node (1).svg" alt="Lucas Rabaquim">
+                        </div>
+                            <div class="text-area">
+                        <h2>NODE</h2>
+                        <h3>Desenvolvimento Back-End</h3>
+                    </div>
+                     
+                </li>
+              </ul>
+            </div>
+        <div id="seta" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-arrow-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa fa-arrow-right"></i></button>
+          </div>
+      </div>
+      <script src="glide.min.js"></script>
+      <script>
+        new Glide(".glide", {
+            type: 'slider',
+            perView: 3,
+            startAt: 0,
+            animationDuration: 500,
+            gap: 40,
+            autoplay: 2400,
+            hoverpause: false,
+            bound: true,
+            breakpoints: {
+                1200:{
+                    perView: 3
+                },
+                800:{
+                    perView: 1,
+                    gap: 10
+                }
+            }
+
+        }).mount();
+      </script>
+
+      
+        <div class="faq-content">
+            <div class="faq-question faq--card">
+              <input id="q1" type="checkbox" class="panel">
+              <div class="plus">+</div>
+              <label for="q1" class="panel-title">Mission</label>
+              <div class="panel-content">
+                Develop innovative and quality technological solutions that meet the needs of our customers and contribute to the success of their businesses, always focusing on excellence, ethics and commitment.</div>
+            </div>
+            
+            <div class="faq-question faq--card">
+              <input id="q2" type="checkbox" class="panel">
+              <div class="plus">+</div>
+              <label for="q2" class="panel-title">Vision</label>
+              <div class="panel-content">To be recognized as a leading company in the systems development market, offering high quality solutions and contributing to the growth and digital transformation of our customers.</div>
+            </div>
+            
+            <div class="faq-question faq--card">
+              <input id="q3" type="checkbox" class="panel">
+              <div class="plus">+</div>
+              <label for="q3" class="panel-title">Values</label>
+                <div class="panel-content"> 
+                    <ul> 
+                       <li>
+                        First on the market, always seeking to offer the best services to our customers</li>
+                         <li>Freedom of choice for our customers regarding their applications</li>
+                         <li>Respect to everyone</li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+<section id="contact">
+<div class="maincontact">
+    <div class="glide" id="glide-contact">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+            <div class="card">
+                <div class="img-face">
+                    <img class="face" src="./img/levi 1.svg" alt="Levi Bergamascki">
+                </div>
+                    <div class="text-area">
+                <h2>Levi Bergamascki</h2>
+                <h3>Desenvolvedor Front-End Web</h3>
+                <p>
+                    Computational science enthusiast, musician and cinema connoisseur. Lover of football, books and video games.</p>
+                <ul class="social-media">
+                    <li id="instagram-media">
+                        <a href="https://www.instagram.com/levibergamascki/" target="_blank"><img src="./img/instagram-grey.svg" alt="Instagram"></a>
+                    </li>
+                    <li id="linkedin-media">
+                        <a href="https://www.linkedin.com/in/levi-bergamascki/" target="_blank"><img src="./img/linkedin-grey.svg" alt="Linkedin"></a>
+                    </li>
+                    <li id="github-media">
+                        <a href="https://github.com/levibergamascki" target="_blank"><img src="./img/githublogo.svg" alt="Github"></a>
+                    </li>
+                </ul>
+            </div>
+            
+            </div>
+        </li>
+            <li class="glide__slide">
+                <div class="card">
+                    <div class="img-face">
+                        <img class="face" src="./img/luizgustavo.jpeg" alt="Luiz Gustavo">
+                    </div>
+                        <div class="text-area">
+                    <h2>Luiz Gustavo</h2>
+                    <h3>Desenvolvedor Front-End Java</h3>
+                    <p>
+                        Appreciative of front-end design and development, and dedicated to creating interfaces that combine aesthetics with accessibility.</p>
+                    <ul class="social-media">
+                        <li id="instagram-media">
+                            <a href="https://www.instagram.com/gustavo_db1/" target="_blank"><img src="./img/instagram-grey.svg" alt="Instagram"></a>
+                        </li>
+                        <li id="linkedin-media">
+                            <a href="https://www.linkedin.com/in/luiz-gustavo-3433aa24a/" target="_blank"><img src="./img/linkedin-grey.svg" alt="Linkedin"></a>
+                        </li>
+                        <li id="github-media">
+                            <a href="https://github.com/zVeran" target="_blank"><img src="./img/githublogo.svg" alt="Github"></a>
+                        </li>
+                    </ul>
+                </div>
+                    
+                
+                </div>
+            </li>
+            <li class="glide__slide">
+                <div class="card">
+                    <div class="img-face">
+                        <img class="face" src="./img/lauan.jfif" alt="Lauan Amorim">
+                    </div>
+                    <div class="text-area">
+                    <h2>Lauan Amorim</h2>
+                    <h3>Líder do projeto</h3>
+                    <p>Passionate about computing, algorithms and innovation. Lover of books and motorsports.</p>
+                    <ul class="social-media">
+                        <li id="instagram-media">
+                            <a href="https://www.instagram.com/l4uzin/" target="_blank"><img src="./img/instagram-grey.svg" alt="Instagram"></a>
+                        </li>
+                        <li id="linkedin-media">
+                            <a href="https://www.linkedin.com/in/lauanamorim/" target="_blank"><img src="./img/linkedin-grey.svg" alt="Linkedin"></a>
+                        </li>
+                        <li id="github-media">
+                            <a href="https://github.com/LauanAmorim" target="_blank"><img src="./img/githublogo.svg" alt="Github"></a>
+                        </li>
+                    </ul>
+                </div>
+                    
+                  
+                </div>
+            </li>
+            <li class="glide__slide">
+                <div class="card">
+                    <div class="img-face">
+                        <img class="face" src="./img/lucasrabaquim2.png" alt="Lucas Rabaquim">
+                    </div>
+                    <div class="text-area">
+                    <h2>Lucas Rabaquim</h2>
+                    <h3>Desenvolvedor Back-End Java</h3>
+                    <p>
+                        Systems Development student and enthusiast of exact sciences. Lover of origami and the sciences that we see and experience in everyday life.</p>
+                    <ul class="social-media">
+                        <li id="instagram-media">
+                            <a href="https://www.instagram.com/lucasd_raab/" target="_blank"><img src="./img/instagram-grey.svg" alt="Instagram"></a>
+                        </li>
+                        <li id="linkedin-media">
+                            <a href="https://www.linkedin.com/in/lucas-rabaquim/" target="_blank"><img src="./img/linkedin-grey.svg" alt="Linkedin"></a>
+                        </li>
+                        <li id="github-media">
+                            <a href="https://github.com/LucasRabaquim" target="_blank"><img src="./img/githublogo.svg" alt="Github"></a>
+                        </li>
+                    </ul>
+                </div>
+                   
+            </li>
+            <li class="glide__slide">
+                <div class="card">
+                    <div class="img-face">
+                        <img class="face" src="./img/felipesene.svg" alt="Felipe Sene">
+                    </div>
+                    <div class="text-area">
+                    <h2>Felipe Sene</h2>
+                    <h3>Analista de Sistemas</h3>
+                    <p>Completing the training process in the technical area of ​​systems development, with the aim of continuing in the area of ​​Full Stack development.</p>
+                    <ul class="social-media">
+                        <li id="instagram-media">
+                            <a href="https://www.instagram.com/felpssene/" target="_blank"><img src="./img/instagram-grey.svg" alt="Instagram"></a>
+                        </li>
+                        <li id="linkedin-media">
+                            <a href="https://www.instagram.com/devpolarys/" target="_blank"><img src="./img/linkedin-grey.svg" alt="Linkedin"></a>
+                        </li>
+                        <li id="github-media">
+                            <a href="https://github.com/FelipeSene" target="_blank"><img src="./img/githublogo.svg" alt="Github"></a>
+                        </li>
+                    </ul>
+                </div>
+                 
+            </li>      
+              <li class="glide__slide">
+                <div class="card">
+                    <div class="img-face">
+                        <img class="face" src="./img/lucasgabriel.svg" alt="Lucas Gabriel">
+                    </div>
+                        <div class="text-area">
+                    <h2>Lucas Gabriel</h2>
+                    <h3>Desenvolvedor Front-End</h3>
+                    <p>An ambitious young man, passionate about programming, bodybuilding and personal development. Proficiency in Java and C#.</p>
+                    <ul class="social-media">
+                        <li id="instagram-media">
+                            <a href="https://www.instagram.com/macedo.lg/" target="_blank"><img src="./img/instagram-grey.svg" alt="Instagram"></a>
+                        </li>
+                        <li id="linkedin-media">
+                            <a href="https://www.linkedin.com/in/macedolg/" target="_blank"><img src="./img/linkedin-grey.svg" alt="Linkedin"></a>
+                        </li>
+                        <li id="github-media">
+                            <a href="https://www.instagram.com/devpolarys/" target="_blank"><img src="./img/githublogo.svg" alt="Github"></a>
+                        </li>
+                    </ul>
+                </div>
+                 
+            </li>
+            <li class="glide__slide">
+                <div class="card">
+                    <div class="img-face">
+                        <img class="face" src="./img/jaime.svg" alt="Jaime Koji">
+                    </div>
+                    <div class="text-area">
+                    <h2>Jaime Koji</h2>
+                    <h3>Analista de Banco de Dados</h3>
+                    <p>A curious programming student with a great desire to master the area.</p>
+                    <ul class="social-media">
+                        <li id="instagram-media">
+                            <a href="https://www.instagram.com/jaimeksp1009/ target="_blank"><img src="./img/instagram-grey.svg" alt="Instagram"></a>
+                        </li>
+                        <li id="linkedin-media">
+                            <a href="https://www.instagram.com/devpolarys/" target="_blank"><img src="./img/linkedin-grey.svg" alt="Linkedin"></a>
+                        </li>
+                        <li id="github-media">
+                            <a href="https://www.instagram.com/devpolarys/" target="_blank"><img src="./img/githublogo.svg" alt="Github"></a>
+                        </li>
+                    </ul>
+                </div>
+                 
+            </li>  
+          </ul>
+        </div>
+      </div>
+      <script src="glide.min.js"></script>
+      <script>
+        new Glide("#glide-contact", {
+            type: 'slider',
+            perView: 4,
+            startAt: 0,
+            animationDuration: 500,
+            gap: 40,
+            autoplay: 1400,
+            hoverpause: true,
+            bound: true,
+            breakpoints: {
+                1200:{
+                    perView: 3
+                },
+                800:{
+                    perView: 1,
+                    startAt: 0,
+                    gap: 10
+                }
+            }
+
+        }).mount();
+      </script>
+
+
+      <div class="forms-location">
+ <div id="leftcontact">
+     <div id="main-text-contact">
+         <h1>Contact us</h1>
+         <h2>Let's work together!</h2>
+     </div>
+     
+     <div id="forms">
+
+        <div class="left-column">
+            <input
+              type="text"
+              placeholder="Name"
+              id="nome"
+              autocomplete="off"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              autocomplete="off"
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              id="assunto"
+              autocomplete="off"
+            />
+        </div>
+        <div class="right-column">
+            <input
+              type="text"
+              placeholder="Message"
+              id="mensagem"
+              autocomplete="off"
+            />
+        </div>
+        
+     </div>
+     <div class="wrapper">
+        <a href="#"><span>Submit</span></a>
+      </div>
+ </div>
+ <div id="rightcontact">
+    <iframe title="location"
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.28443558708!2d-46.745404087675055!3d-23.529944709727324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8b965d5052f%3A0x99f05fb5906891af!2sVila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002675-031!5e0!3m2!1spt-BR!2sbr!4v1696451124840!5m2!1spt-BR!2sbr" 
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>   
+</div>
+</div>
+</section>
+
+<footer id="footer">
+    <div id="footer-content">
+        <div id="footer-logo">
+            <a href="#home">
+                <img src="./img/logopolarys.svg" alt="POLARYS">
+            </a>
+        </div>
+
+        <div id="footer-text">
+            <div id="footer-tittle">
+                SOCIAL MEDIA
+            </div>
+            <p>Contact us in</p>
+            <p>our social media:</p>
+           <p id="redessociais"><a href="www.instagram.com/devpolarys">Instagram</a> e <a href="https://www.linkedin.com/company/devpolarys/">LinkedIn</a></p>
+        </div>
+
+        <div id="footer-text">
+            <div id="footer-tittle">
+                MENU
+            </div>
+            <a href="#home">Home</a>
+        </br>
+            <a href="#about">About</a>
+        </br>
+            <a href="#services">Services</a>
+        </br>
+            <a href="#contact">Contact</a>
+    </br>
+        </div>
+
+        <div id="footer-text">
+            <div id="footer-tittle">
+                Location
+            </div>
+            <p>We currently focus our work</p>
+            <p>in the ETEC PROFESSOR
+            </p>
+            <p>BASILIDES DE GODOY labs in Vila Leopoldina.</p>
+    </br>
+            <p>Rua Guaipá, 678 - </p>
+            <p>Vila Leopoldina, São Paulo - SP,</p>
+            <p>05089-000</p>
+
+        </div>
+        </div>
+        <div id="footer-copy">
+            <div id = "copy">
+                <p> &copy;DevPolarys. All Reserved. </p>
+            </div>
+            <div id="footer-social">
+                <ul class="list-footer">
+                    <li id="instagram">
+                        <a href="https://www.instagram.com/devpolarys/" target="_blank"><img src="./img/instagram.svg" alt="Instagram"></a>
+                    </li>
+                    <li id="linkedin">
+                        <a href="https://www.linkedin.com/company/devpolarys/" target="_blank"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+                    </li>
+                </ul>
+                </div>
+    </footer>
+</body>
+</html>
